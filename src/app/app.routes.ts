@@ -1,17 +1,17 @@
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './componentes/home/home.component';
+import { HomeComponent } from './componentes/internet/internet.component';
 import { LocalizacionContactoComponent } from './componentes/localizacion-contacto/localizacion-contacto.component';
 import { ServiciosComponent } from './componentes/servicios/servicios.component';
-import { AvisoLegalComponent } from './componentes/aviso-legal/aviso-legal.component';
-import { EquipoComponent } from './componentes/equipo/equipo.component';
+import { AvisoLegalComponent } from './componentes/internetmovil/internetmovil.component';
+import { EquipoComponent } from './componentes/movil/movil.component';
 
 const routes: Routes = [
-    {path: 'home', component: HomeComponent},
-    {path: 'services', component: ServiciosComponent},
+    {path: 'internet', component: HomeComponent},
+    {path: 'servicios', component: ServiciosComponent},
     {path: 'localizacion', component: LocalizacionContactoComponent},
-    {path: 'equipo', component: EquipoComponent},
-    {path: 'aviso', component: AvisoLegalComponent},
+    {path: 'movil', component: EquipoComponent},
+    {path: 'internetmovil', component: AvisoLegalComponent},
     {path: '**', redirectTo: 'home'}
 ];
 
