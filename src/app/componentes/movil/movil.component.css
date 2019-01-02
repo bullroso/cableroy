@@ -4,3 +4,6 @@ img {
     height: offsetWidth * 20;
     box-shadow: 0px 5px 20px #999;
 }
+.row {
+    text-align: center;
+}
