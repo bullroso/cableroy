@@ -3,11 +3,11 @@ li {
     color: #2780E3;
 }
 
-a{
+a {
     color: #2780E3;
 }
 
-p{
+p {
     color: #2780E3;
 }
 
@@ -15,6 +15,7 @@ img {
     min-width: 100%;
     width: 100%;
     height: offsetWidth * 20;
+    padding: 10px;
     box-shadow: 0px 5px 20px #999;
 }
 
