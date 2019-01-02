@@ -1,0 +1,17 @@
+#img-responsive {
+    width: 15%;
+    min-width: 50px;
+    min-height: 25px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+li {
+    font-size: 28px;
+    
+}
+
+a {
+    font-size: 24px;
+    font-weight:bold;
+}

@@ -1,0 +1,16 @@
+img {
+    width: 100%;    
+}
+
+#imagen {
+    min-height: 500px;
+    max-height: 500px;
+    display: block;
+}
+
+#eldespacho {
+    min-width: 100%;
+    width: 100%;
+    min-height: 54.25%;
+    box-shadow: 0px 5px 20px #999;
+}

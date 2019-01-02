@@ -1,0 +1,50 @@
+<div class="card border-primary mb-3">
+    <agm-map [latitude]=38.980465 [longitude]=-3.930594 [zoom]=15>
+        <agm-marker [latitude]=38.980352 [longitude]=-3.930507>
+            <agm-info-window>Asensio abogados</agm-info-window>
+        </agm-marker>
+    </agm-map>
+</div>
+<div class="card border-primary mb-3" style="width: 100%;">
+    <div class="row">
+        <div class="card-body" id="datos">
+            <h4 class="card-title" Style="color: #2780E3"><b>Datos de contacto</b></h4>
+            <p class="card-text">
+                13004 CIUDAD REAL
+                <br/> Ronda de Ciruela, nº 5
+                <br/> Portal 4 - 2º D
+                <br/><br/> Teléfono: 926 21 48 28
+                <br/> Móvil: 676 47 47 04
+                <br/> Fax: 926 21 95 88
+                <br/> Email: despacho@asensioabogados.net
+            </p>
+        </div>
+        <div class="card-body" id="datos">
+            <form (ngSubmit)="onSubmit(model);" #model="ngForm">
+                <fieldset>
+                    <h4 class="card-title" Style="color: #2780E3"><b>Formulario de contacto</b></h4>
+                    <div class="form-group">
+                        <label for="email">Su Email</label>
+                        <input matInput type="text" maxlength="80" #email [(ngModel)]='Contact.email' name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Su número de teléfono</label>
+                        <input matInput type="number" maxlength="16" #telefono [(ngModel)]="Contact.telefono" name="telefono" class="form-control" placeholder="Telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Su nombre</label>
+                        <input matInput type="text" maxlength="80" #nombre [(ngModel)]="Contact.name" name="name" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea matInput maxlength="300" #texto [(ngModel)]="Contact.message" name="message" class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+                    <div class="row" id="button">
+                        <button type="submit" class="btn btn-primary" [disabled]="!model.form.valid">Enviar</button>
+                        <small id="emailHelp" class="form-text text-muted">Su informacion personal nunca sera revelada a nadie más.</small>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
