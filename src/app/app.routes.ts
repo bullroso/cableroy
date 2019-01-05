@@ -12,7 +12,7 @@ const routes: Routes = [
     {path: 'localizacion', component: LocalizacionContactoComponent},
     {path: 'movil', component: EquipoComponent},
     {path: 'internetmovil', component: AvisoLegalComponent},
-    {path: '**', redirectTo: 'home'}
+    {path: '**', redirectTo: 'servicios'}
 ];
 
 export const WEB_ROUTING = RouterModule.forRoot(routes);
