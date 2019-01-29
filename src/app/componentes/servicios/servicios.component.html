@@ -1,10 +1,17 @@
-<div class="contenedor">
+<div class="contenedor hidden-sm hidden-xs">
     <h1>Prueba</h1>
     <p>texto de prueba</p>
 </div>
 <br/><br/>
+<div class="container" id="img-responsive">
+    <carousel [noPause]="noPause">
+        <slide *ngFor="let slide of slides; let index=index">
+            <img [src]="slide.image" style="max-height: 40em;min-height: 40em">
+        </slide>
+    </carousel>
+</div>
 <div class="container card border-primary mb-3" style="padding: 20px">
-    <div class="row" >
+    <div class="row">
         <div class="card-body" style="align-items: center" class="col-12 col-sm-4">
             <div id="capa2">
                 <h3>texto prueba</h3>
@@ -15,7 +22,7 @@
             <div id="capa2">
                 <h3>texto prueba</h3>
             </div>
-            <img src="assets/img/servicios/2.jpg" class="img-responsive" id="capa1">        
+            <img src="assets/img/servicios/2.jpg" class="img-responsive" id="capa1">
         </div>
         <div class="card-body" class="col-12 col-sm-4">
             <div id="capa2">
