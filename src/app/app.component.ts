@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  lng = 39.16949;
-  lat = -3.851044;
+  lng = 39.1685537;
+  lat = -3.8502031;
   title = 'Cableroy';
 }
