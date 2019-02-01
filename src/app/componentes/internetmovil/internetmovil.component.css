@@ -1,0 +1,20 @@
+#Basico{
+    padding: 5px;
+    
+}
+#interno{
+    background-color: white;
+    min-height: 100%;
+}
+
+#boton{
+    position: absolute;
+    bottom: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;   
+    width: 96,5%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
