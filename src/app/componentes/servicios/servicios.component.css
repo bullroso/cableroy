@@ -9,6 +9,9 @@ img {
     display: flex;
     z-index:1;
 }
+.card-body{
+    margin-bottom: 10px;
+}
 #capa2{ 
     position: absolute;
     text-align: center;
