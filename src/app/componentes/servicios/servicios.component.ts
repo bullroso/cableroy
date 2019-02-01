@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { getComponent } from '@angular/core/src/linker/component_factory_resolver';
 
 @Component({
   selector: 'app-servicios',
@@ -11,6 +12,8 @@ export class ServiciosComponent implements OnInit {
   myInterval = 10000;
   activeSlideIndex = 0;
 
+  hideModal: boolean = true; 
+
   slides = [
     {image: 'assets/img/slider/1.jpg'},
     {image: 'assets/img/slider/2.jpg'},
@@ -19,6 +22,9 @@ export class ServiciosComponent implements OnInit {
 
   constructor() { }
 
+  submitComments(){
+    this.hideModal = false;
+  }
 
 
   ngOnInit() {

@@ -11,41 +11,47 @@
 </div>
 <div class="container card border-primary mb-3" style="padding: 20px;margin-bottom: 2%;margin-top: 2%">
     <div class="row">
-        <div class="card-body" class="col-6 col-sm-4">
+        <div class="card-body" class="col-12 col-md-6 col-lg-4">
             <div id="capa2">
-                <h2>Telecomunicaciones</h2>
+                <h4>Telecomunicaciones</h4>
             </div>
             <img src="assets/img/servicios/1.jpg" class="img-responsive" id="capa1">
         </div>
-        <div class="card-body" class="col-6 col-sm-4">
+        <div class="card-body" class="col-12 col-md-6 col-lg-4">
             <div id="capa2">
-                <h2>Servicios eléctricos</h2>
+                <h4>Servicios eléctricos</h4>
             </div>
             <img src="assets/img/servicios/2.jpg" class="img-responsive" id="capa1">
         </div>
-        <div class="card-body" class="col-6 col-sm-4">
+        <div class="card-body" class="col-12 col-md-6 col-lg-4">
             <div id="capa2">
-                <h2>Alarma y videovigilancia</h2>
+                <h4>Alarma y videovigilancia</h4>
             </div>
             <img src="assets/img/servicios/3.jpg" class="img-responsive" id="capa1">
         </div>
-        <div class="card-body" class="col-6 col-sm-4">
+        <div class="card-body" class="col-12 col-md-6 col-lg-4">
             <div id="capa2">
-                <h2>Antenas de television y parabolicas</h2>
+                <h4>Antenas de television y parabolicas</h4>
             </div>
             <img src="assets/img/servicios/4.jpg" id="capa1">
         </div>
-        <div class="card-body" class="col-6 col-sm-4">
+        <div class="card-body" class="col-12 col-md-6 col-lg-4">
             <div id="capa2">
-                <h2>videoportero</h2>
+                <h4>videoportero</h4>
             </div>
             <img src="assets/img/servicios/5.jpg" id="capa1">
         </div>
-        <div class="card-body" class="col-6 col-sm-4">
+        <div class="card-body" class="col-12 col-md-6 col-lg-4">
             <div id="capa2">
-                <h2>Trabajos con dron</h2>
+                <h4>Trabajos con dron</h4>
             </div>
             <img src="assets/img/servicios/6.jpg" id="capa1">
         </div>
+    </div>
+</div>
+<div id="video" class="d-none d-lg-block" *ngIf="hideModal">
+    <div class="embed-responsive embed-responsive-21by9">
+            <button style="z-index: 3;position: absolute;right: 0px;top: 0px;" type="button" (click)='submitComments()' data-dismiss="myModal" class="btn btn-default">X</button> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rPCzao7H6n8?controls=0&autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
