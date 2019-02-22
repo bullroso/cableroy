@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-aviso-legal',
+  selector: 'app-internetmovil',
   templateUrl: './internetmovil.component.html',
   styleUrls: ['./internetmovil.component.css']
 })
-export class AvisoLegalComponent implements OnInit {
+export class internetmovilComponent implements OnInit {
 
   constructor() { }
 

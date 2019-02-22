@@ -23,8 +23,9 @@ import { FormsModule } from '@angular/forms';
 import { LocalizacionContactoComponent } from './componentes/localizacion-contacto/localizacion-contacto.component';
 import { ServiciosComponent } from './componentes/servicios/servicios.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { AvisoLegalComponent } from './componentes/internetmovil/internetmovil.component';
+import { internetmovilComponent } from './componentes/internetmovil/internetmovil.component';
 import { EquipoComponent } from './componentes/movil/movil.component';
+import { AvisoLegalComponent } from './componentes/aviso-legal/aviso-legal.component'
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { EquipoComponent } from './componentes/movil/movil.component';
     LocalizacionContactoComponent,
     ServiciosComponent,
     FooterComponent,
+    internetmovilComponent,
     AvisoLegalComponent,
     EquipoComponent
   ],
