@@ -14,8 +14,8 @@ $email= $request->email;
 $company=$request->subject;
 $text=$request->msn;
 
-$send_to = "danielmedinanegrete@gmail.com";
-$from = "general@asensioabogados.net";
+$send_to = "fjmonroy@cableroy.com";
+$from = "javiermonroy222@gmail.com";
 $body='
 <html>
 <head>
